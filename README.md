@@ -4,9 +4,8 @@ This project illustrates how to inject class rules while writing Data/Workflow p
 ### Usage: Data Pipeline 1
 -----
 ```Java
-    private static String TMP_STRING = "heLLo World !";
+        private static String TMP_STRING = "heLLo World !";
 
-...
         CAS casObj = new CAS(TMP_STRING);
         App newApp = new App();
         
