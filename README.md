@@ -3,7 +3,8 @@ This project illustrates how to inject class rules while writing Data/Workflow p
 
 ### Usage: Data Pipeline 1
 -----
-It transforms given text with three rules R1, R2 and R2. 
+It transforms given text with three rules R1, R2 and R2. R1 transforms the text to upper case, R2 transforms the text to lowercase and finally R3 transforms the text in init-caps.
+
 -----
 ```Java
         private static String TMP_STRING = "heLLo World !";
